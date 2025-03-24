@@ -1,0 +1,17 @@
+# LINE Bot API credentials
+LINE_CHANNEL_ACCESS_TOKEN=your_line_channel_access_token
+LINE_CHANNEL_SECRET=your_line_channel_secret
+
+# Google API configuration
+LINE_BOT_SPREADSHEET_ID=your_google_spreadsheet_id
+LINE_BOT_PHOTO_FOLDER_ID=your_google_drive_folder_id
+
+# Google Service Account (choose one method)
+# Option 1: Path to credentials file
+GOOGLE_CREDENTIALS_PATH=path/to/your-credentials.json
+
+# Option 2: Base64 encoded credentials (for deployment without file storage)
+# GOOGLE_CREDENTIALS_BASE64=base64_encoded_credentials_json
+
+# Flask configuration (optional)
+PORT=8000
