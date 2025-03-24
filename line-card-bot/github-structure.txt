@@ -1,0 +1,13 @@
+# LINE Bot Repository Structure
+
+```
+line-card-bot/
+├── .env.example         # Example environment variables (no secrets)
+├── .gitignore           # Files to ignore in git
+├── README.md            # Project documentation
+├── app.py               # Main application code
+├── requirements.txt     # Python dependencies
+├── Procfile             # For Heroku deployment (optional)
+├── runtime.txt          # Python version for deployment
+└── logging_config.py    # Separate logging configuration
+```
